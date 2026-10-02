@@ -108,7 +108,7 @@ Now start the app:
 uv run python app.py
 ```
 
-Open **<http://127.0.0.1:8000>** in your browser. If you see the planner with a
+Open **https://travelbrain-multi-agent-ai-travel-planner-yq5a.onrender.com** in your browser. If you see the planner with a
 green *API connected* dot at the bottom of the sidebar, you're ready to go.
 
 ## 🎈 Usage <a name="usage"></a>
