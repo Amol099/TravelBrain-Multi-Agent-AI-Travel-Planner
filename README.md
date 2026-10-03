@@ -1,95 +1,177 @@
-<h1 align="center">TravelBrain</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-done-22c55e.svg" alt="Status">
-  <a href="https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/issues"><img src="https://img.shields.io/github/issues/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner.svg" alt="GitHub Issues"></a>
-  <a href="https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/pulls"><img src="https://img.shields.io/github/issues-pr/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner.svg" alt="GitHub Pull Requests"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"></a>
-</p>
+<!-- ✈️ ───────────────────────────────────────────── ✈️ -->
+
+# 🧠 TravelBrain
+
+### *Your trip, planned by a team of AI specialists.*
+
+Describe the trip you want in plain English — get back **flights, hotels, weather
+and a day-by-day itinerary**, researched for you in about a minute.
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/✨_Live_Demo-Open_App-6366f1?style=for-the-badge)](https://travelbrain-multi-agent-ai-travel-planner-yq5a.onrender.com)
+&nbsp;
+[![Status](https://img.shields.io/badge/Status-Done-22c55e?style=for-the-badge)](#)
+&nbsp;
+[![License](https://img.shields.io/badge/License-GPL--3.0-3b82f6?style=for-the-badge)](LICENSE)
+
+[![Issues](https://img.shields.io/github/issues/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner?style=flat-square&color=f59e0b)](https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner?style=flat-square&color=ec4899)](https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/pulls)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+
+<br>
+
+[**Features**](#-features) •
+[**How it works**](#-how-it-works) •
+[**Quick start**](#-quick-start) •
+[**Usage**](#-usage) •
+[**Troubleshooting**](#-troubleshooting) •
+[**Contributing**](#-contributing)
+
+</div>
+
+<br>
+
+<!--
+  💡 TIP: Drop a screenshot or GIF of the app here for maximum wow-factor:
+  <p align="center"><img src="docs/screenshot.png" width="85%" alt="TravelBrain preview"></p>
+-->
 
 ---
 
-<p align="center"> A multi-agent AI travel planner. Describe the trip you want in
-    plain English and get back flights, hotels, weather and a day-by-day
-    itinerary — researched for you in about a minute.
-    <br>
-</p>
+## 🌍 About
 
-## 📝 Table of Contents
+Planning a trip usually means juggling half a dozen browser tabs — one for flights,
+another for hotels, a third for the weather, and a notes app where you try to
+squeeze it all into a sensible order.
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgement)
+**TravelBrain collapses all of that into a single conversation.**
 
-## 🧐 About <a name = "about"></a>
+Tell it what you want, the way you'd tell a friend:
 
-Planning a trip usually means juggling half a dozen browser tabs — one for flights, another for hotels, a third for the weather, and a notes app where you try to fit it all into a sensible order. TravelBrain collapses that into a single conversation. You describe the trip you want in your own words, the way you'd describe it to a friend — *"Plan a 10 day Europe trip from India in April, mid-range budget"* — and a team of AI specialists goes and researches it. One looks into flights, another finds places to stay, another checks what the weather will be doing while you're there. Their findings are then pulled together into a single plan you can actually act on, complete with a day-by-day schedule and a cost estimate. The result is a trip plan in about a minute, rather than an afternoon of research. Each part of the trip gets its own attention:
+> 💬 *"Plan a 10 day Europe trip from India in April, mid-range budget"*
 
-| | |
-|---|---|
-| ✈️ **Flights** | Likely airports, airlines on the route, typical duration and fare range |
-| 🏨 **Hotels** | Accommodation options matched to your destination and budget |
-| 🌤️ **Weather** | Current conditions and the forecast, with travel advice |
-| 🗺️ **Itinerary** | A realistic day-by-day plan you can actually follow |
-| 💰 **Budget** | An estimated breakdown of what the trip will cost |
+A team of AI specialists goes off and researches it. One looks into flights,
+another finds places to stay, another checks the weather while you're there.
+Their findings are pulled together into **one plan you can actually act on** —
+a day-by-day schedule and a cost estimate, in about a minute instead of an
+afternoon.
 
-Plans are saved as you go, so you can reopen a trip later and ask follow-up
-questions without starting over.
+---
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## ✨ Features
 
-These instructions will get you a copy of the project up and running on your
-local machine.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✈️ Flights</h3>
+      Likely airports, airlines on the route, typical duration and fare range.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏨 Hotels</h3>
+      Accommodation options matched to your destination and budget.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌤️ Weather</h3>
+      Current conditions and forecast, with practical travel advice.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗺️ Itinerary</h3>
+      A realistic day-by-day plan you can actually follow.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💰 Budget</h3>
+      An estimated breakdown of what the trip will cost.
+    </td>
+    <td width="50%" valign="top">
+      <h3>💾 Saved Trips</h3>
+      Plans are saved as you go — reopen a trip later and ask follow-ups without starting over.
+    </td>
+  </tr>
+</table>
 
-### Prerequisites
+---
 
-You'll need the following before you start:
+## 🔭 How it works
 
-- **Python 3.11**
-- **[uv](https://docs.astral.sh/uv/)** — used to install dependencies
-- **A PostgreSQL database** — a free [Render](https://render.com/) instance works fine
-- **API keys** from the services below. All of them have free tiers:
-  - [Groq](https://console.groq.com/)
-  - [Tavily](https://tavily.com/)
-  - [AviationStack](https://aviationstack.com/)
-  - [OpenWeather](https://openweathermap.org/api)
+```mermaid
+flowchart LR
+    A([💬 Your request]) --> B{{🧠 Planner}}
+    B --> C[✈️ Flights agent<br/><sub>AviationStack</sub>]
+    B --> D[🏨 Hotels agent<br/><sub>Tavily</sub>]
+    B --> E[🌤️ Weather agent<br/><sub>OpenWeather</sub>]
+    C --> F{{🧩 Synthesis<br/><sub>Groq LLM</sub>}}
+    D --> F
+    E --> F
+    F --> G([🗺️ Itinerary + 💰 Budget])
+    G --> H[(🐘 PostgreSQL)]
+```
 
-### Installing
+---
 
-Clone the repository and move into it:
+## 🚀 Quick start
+
+### 📋 Prerequisites
+
+| | Requirement | Notes |
+|:-:|---|---|
+| 🐍 | **Python 3.11** | |
+| ⚡ | **[uv](https://docs.astral.sh/uv/)** | Used to install dependencies |
+| 🐘 | **PostgreSQL database** | A free [Render](https://render.com/) instance works great |
+| 🔑 | **API keys** | All have free tiers — see below |
+
+<details>
+<summary><b>🔑 Where to get the API keys</b></summary>
+
+<br>
+
+| Service | Used for | Get a key |
+|---|---|---|
+| **Groq** | AI planning | [console.groq.com](https://console.groq.com/) |
+| **Tavily** | Hotel search | [tavily.com](https://tavily.com/) |
+| **AviationStack** | Airports & airlines | [aviationstack.com](https://aviationstack.com/) |
+| **OpenWeather** | Weather & forecasts | [openweathermap.org/api](https://openweathermap.org/api) |
+
+</details>
+
+### 📦 Installation
+
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner.git
 cd TravelBrain-Multi-Agent-AI-Travel-Planner
 ```
 
-Install the dependencies:
+**2. Install dependencies**
 
 ```bash
 uv sync
 ```
 
-Create a file named `.env` in the project root and add your keys:
+**3. Add your keys** — create a `.env` file in the project root:
 
 ```dotenv
-# Required
+# ── Required ──────────────────────────────────────
 GROQ_API_KEY=your_groq_key
 DATABASE_URL=postgresql://user:password@host:5432/dbname
 
-# Service keys
+# ── Service keys ──────────────────────────────────
 TAVILY_API_KEY=your_tavily_key
 AVIATIONSTACK_API_KEY=your_aviationstack_key
 OPENWEATHER_API_KEY=your_openweather_key
 
-# Optional
+# ── Optional ──────────────────────────────────────
 GROQ_MODEL=openai/gpt-oss-20b
 ```
-
-Here's what each one is for:
 
 | Variable | Required | What it's for |
 |---|:---:|---|
@@ -98,68 +180,88 @@ Here's what each one is for:
 | `TAVILY_API_KEY` | ✅ | Hotel search |
 | `AVIATIONSTACK_API_KEY` | ✅ | Airport and airline information |
 | `OPENWEATHER_API_KEY` | ✅ | Weather and forecasts |
-| `GROQ_MODEL` | ❌ | Switch the AI model without editing any code |
+| `GROQ_MODEL` | ➖ | Switch the AI model without editing any code |
 
-Your `.env` file is ignored by Git. Never commit real keys.
+> [!WARNING]
+> Your `.env` file is ignored by Git. **Never commit real keys.**
 
-Now start the app:
+**4. Launch the app**
 
 ```bash
 uv run python app.py
 ```
 
-Open **https://travelbrain-multi-agent-ai-travel-planner-yq5a.onrender.com** in your browser. If you see the planner with a
-green *API connected* dot at the bottom of the sidebar, you're ready to go.
+Then open the app in your browser (or try the
+[**live demo**](https://travelbrain-multi-agent-ai-travel-planner-yq5a.onrender.com)).
+If you see the planner with a green **API connected** dot at the bottom of the
+sidebar — you're ready to go! 🎉
 
-## 🎈 Usage <a name="usage"></a>
+---
 
-### Planning a trip
+## 🎈 Usage
 
-Type your request into the box at the bottom of the screen and press **Enter**.
-Anything conversational works:
+### 🧳 Planning a trip
 
-> Plan a 10 day Europe trip from India in April, mid-range budget
+Type your request into the box at the bottom and press **Enter**. Anything
+conversational works:
 
-> I want a relaxed 5 day trip to Rome and Florence in September for two people
+> 🇪🇺 *Plan a 10 day Europe trip from India in April, mid-range budget*
 
-Not sure where to start? Click one of the suggestion cards on the home screen.
+> 🇮🇹 *I want a relaxed 5 day trip to Rome and Florence in September for two people*
 
-A plan takes **30–90 seconds** to build, and you'll see each stage as it
-progresses.
+Not sure where to start? Click one of the **suggestion cards** on the home screen.
 
-### Using the trip builder
+> [!NOTE]
+> A plan takes **30–90 seconds** to build, and you'll see each stage as it progresses.
 
-If you'd rather fill in fields than write a sentence, click the **sliders icon**
-to the left of the message box. Enter your origin, destination, dates, duration,
-number of travellers and budget, pick the things you're interested in, then hit
-**Write my prompt**. Your request is composed for you, ready to send or edit.
+### 🎛️ Using the trip builder
 
-### Reading your plan
+Prefer fields over sentences? Click the **sliders icon** to the left of the
+message box, then fill in:
 
-Your results are split into tabs so you can jump straight to what you need:
+`Origin` · `Destination` · `Dates` · `Duration` · `Travellers` · `Budget` · `Interests`
 
-**Plan** · **Itinerary** · **Flights** · **Hotels** · **Weather**
+Hit **Write my prompt** and your request is composed for you — ready to send or edit.
 
-### Saving, exporting and revisiting
+### 📑 Reading your plan
 
-- Every trip is saved to the sidebar automatically — click any one to reopen it
-- Ask follow-up questions on an open trip and it remembers the context
-- Use the icons at the top of a result to **copy**, **download as Markdown** or **print**
-- Click **New trip** to start fresh
-- Switch between **light and dark mode** with the sun/moon icon at the bottom of the sidebar
+Results are split into tabs so you can jump straight to what you need:
 
-## 🤔 Troubleshooting <a name = "troubleshooting"></a>
+| 📋 Plan | 🗺️ Itinerary | ✈️ Flights | 🏨 Hotels | 🌤️ Weather |
+|:-:|:-:|:-:|:-:|:-:|
+
+### 💾 Saving, exporting & revisiting
+
+- 🗂️ Every trip is **saved to the sidebar** automatically — click any one to reopen it
+- 🧠 Ask **follow-up questions** on an open trip — it remembers the context
+- 📤 Use the icons at the top of a result to **copy**, **download as Markdown**, or **print**
+- ➕ Click **New trip** to start fresh
+- 🌗 Toggle **light / dark mode** with the sun/moon icon at the bottom of the sidebar
+
+---
+
+## 🛠️ Troubleshooting
 
 <details>
-<summary><b>The page loads but planning fails</b></summary>
+<summary><b>🔌 The page loads but planning fails</b></summary>
 
-Check the status indicator at the bottom of the sidebar. If it says *API
-unreachable*, the app has stopped — restart it with `uv run python app.py`.
+<br>
+
+Check the status indicator at the bottom of the sidebar. If it says
+*API unreachable*, the app has stopped — restart it:
+
+```bash
+uv run python app.py
+```
+
 Otherwise, check the terminal you started the app in for the error.
+
 </details>
 
 <details>
-<summary><b>An error says the model does not exist</b></summary>
+<summary><b>🤖 An error says the model does not exist</b></summary>
+
+<br>
 
 AI providers retire models over time. List the ones your key can use:
 
@@ -169,73 +271,92 @@ curl -s https://api.groq.com/openai/v1/models \
 ```
 
 Pick one from the list and set it as `GROQ_MODEL` in your `.env` file.
+
 </details>
 
 <details>
-<summary><b>An error says DATABASE_URL is missing</b></summary>
+<summary><b>🐘 An error says DATABASE_URL is missing</b></summary>
+
+<br>
 
 The app needs a PostgreSQL database to save your trips. Add a connection string
-to your `.env` file — see [Installing](#getting_started).
+to your `.env` file — see [Installation](#-installation).
+
 </details>
 
 <details>
-<summary><b>Plans take a long time</b></summary>
+<summary><b>⏳ Plans take a long time</b></summary>
+
+<br>
 
 This is expected. Several specialists research your trip in turn, and each step
-involves live data and AI calls. 30–90 seconds is normal.
+involves live data and AI calls. **30–90 seconds is normal.**
+
 </details>
 
-## 🤝 Contributing <a name = "contributing"></a>
+---
 
-Contributions are welcome. This project is actively being developed, so there's
+## 🤝 Contributing
+
+Contributions are welcome! The project is actively being developed, so there's
 plenty to pick up.
 
-### Getting set up
+**1. Fork** the repo and clone your fork, then follow [Quick start](#-quick-start).
 
-1. **Fork** the repository and clone your fork
-2. Follow [Getting Started](#getting_started) to install everything
-3. Create a branch for your work:
+**2. Create a branch**
 
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-### Making your changes
+**3. Make your changes**
 
-- Keep each pull request focused on one thing
-- Match the style of the code around you
-- Check the app still runs end to end before you open a pull request
-- Never commit your `.env` file or any API keys
+- 🎯 Keep each pull request focused on one thing
+- 🎨 Match the style of the code around you
+- ✅ Check the app still runs end to end before opening a PR
+- 🔐 Never commit your `.env` file or any API keys
 
-### Submitting your work
-
-Commit with a message that says what changed and why:
+**4. Commit & push**
 
 ```bash
 git commit -m "Add support for multi-city trips"
-```
-
-Push to your fork:
-
-```bash
 git push origin feature/your-feature-name
 ```
 
-Then open a **pull request** against `main` describing what you changed, why,
+**5. Open a pull request** against `main`, describing what you changed, why,
 and how you tested it.
 
-### Reporting bugs and suggesting ideas
-
-Open an [issue](https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/issues).
-For bugs, include what you did, what you expected, what happened instead, and
-any error output from the terminal.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- [Groq](https://groq.com/) for fast AI inference
-- [Tavily](https://tavily.com/), [AviationStack](https://aviationstack.com/) and
-  [OpenWeather](https://openweathermap.org/) for the live travel data
+> [!TIP]
+> Found a bug or have an idea? Open an [issue](https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/issues).
+> For bugs, include what you did, what you expected, what happened instead, and any terminal error output.
 
 ---
 
-Licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE).
+## ✍️ Authors
+
+<a href="https://github.com/KalyanM45">
+  <img src="https://img.shields.io/badge/Made_by-@KalyanM45-181717?style=for-the-badge&logo=github" alt="KalyanM45">
+</a>
+
+---
+
+## 💖 Acknowledgements
+
+| | |
+|---|---|
+| ⚡ [**Groq**](https://groq.com/) | Blazing-fast AI inference |
+| 🔎 [**Tavily**](https://tavily.com/) | Live hotel search |
+| ✈️ [**AviationStack**](https://aviationstack.com/) | Airport & airline data |
+| 🌦️ [**OpenWeather**](https://openweathermap.org/) | Weather & forecasts |
+
+---
+
+<div align="center">
+
+### ⭐ If TravelBrain helped you plan a trip, give it a star!
+
+Licensed under the **GNU General Public License v3.0** — see [LICENSE](LICENSE).
+
+<sub>Built with ☕ and a love for travel 🌏</sub>
+
+</div>
