@@ -1,7 +1,7 @@
 <h1 align="center">TravelBrain</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-in%20progress-f59e0b.svg" alt="Status">
+  <img src="https://img.shields.io/badge/status-done-22c55e.svg" alt="Status">
   <a href="https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/issues"><img src="https://img.shields.io/github/issues/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner.svg" alt="GitHub Issues"></a>
   <a href="https://github.com/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner/pulls"><img src="https://img.shields.io/github/issues-pr/KalyanM45/TravelBrain-Multi-Agent-AI-Travel-Planner.svg" alt="GitHub Pull Requests"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"></a>
